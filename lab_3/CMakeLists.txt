@@ -35,3 +35,4 @@ add_executable(lab_3 main.cpp)
 target_link_libraries(lab_3
         PRIVATE
         gtest_main)
+##############
