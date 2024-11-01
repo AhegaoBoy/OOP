@@ -1,0 +1,7 @@
+# ninja log v6
+1	237	1730472537410341714	CMakeFiles/lab_3.dir/main.cpp.o	6f57deb2a66880e3
+1	360	1730472537410222004	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	5b19eb87038da3d4
+1	998	1730472537409964040	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	17ed68ee55647361
+998	1024	1730472538407421380	lib/libgtest.a	72c5846e50d5e806
+1024	1036	1730472538432665541	lib/libgtest_main.a	d369228b4877e58d
+1036	1063	1730472538444594858	lab_3	4810a570f607b706

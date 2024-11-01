@@ -1,0 +1,10 @@
+# ninja log v6
+1	231	1726178567954934002	CMakeFiles/lab_2.dir/main.cpp.o	9a759d27465bc304
+232	255	1726178568185817431	lab_2	8e8a5274bcea4c6c
+5	240	1730471865320129645	CMakeFiles/lab_2.dir/main.cpp.o	4ab6d4950b5b937d
+6	257	1730471865320229853	CMakeFiles/lab_2.dir/decimal.cpp.o	3d0e95bfe2238e93
+5	381	1730471865320011019	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	d1424a1e70b509a7
+5	1013	1730471865319748392	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	39b6dfe857db409
+1014	1038	1730471866328432573	lib/libgtest.a	72c5846e50d5e806
+1038	1049	1730471866352543844	lib/libgtest_main.a	d369228b4877e58d
+1049	1078	1730471866364198540	lab_2	71255a0b92947f59

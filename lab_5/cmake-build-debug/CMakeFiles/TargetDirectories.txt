@@ -1,0 +1,3 @@
+/Users/serzhan/Coding/C_plus_plus/OOP/lab_5/cmake-build-debug/CMakeFiles/lab_5.dir
+/Users/serzhan/Coding/C_plus_plus/OOP/lab_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/serzhan/Coding/C_plus_plus/OOP/lab_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
