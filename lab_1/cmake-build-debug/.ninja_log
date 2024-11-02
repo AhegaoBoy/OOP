@@ -1,11 +1,13 @@
-# ninja log v6
-4	349	1730471504082905437	CMakeFiles/lab_1.dir/main.cpp.o	103ce9db27ee024d
-220	244	1726178491063207958	lab_1	6aa14cb9825b3ebb
-7	409	1726178473756685397	CMakeFiles/lab_1.dir/solution.cpp.o	6f518d9b238cf558
-4	954	1730471504082509518	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	1bceeebbfc96aed1
-4	322	1730471504082789978	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	4b2988c8e8c12554
-954	1040	1730471505032647729	lib/libgtest.a	72c5846e50d5e806
-1040	1053	1730471505118679378	lib/libgtest_main.a	d369228b4877e58d
-6	267	1730471587355609817	CMakeFiles/lab_1.dir/solution.cpp.o	6b098d14d6db3a14
-267	296	1730471587615759403	lab_1-1.0	d43e5cf1ff164220
-296	301	1730471587644636246	lab_1	6ed1b065f6cad4f5
+# ninja log v5
+4	381	7521775771716288	CMakeFiles/lab_1.dir/solution.cpp.obj	ad4b10c84a631340
+0	840	7521775776316293	CMakeFiles/lab_1.dir/main.cpp.obj	a5fff3650e232fff
+10	899	7521775776904976	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	ed981f6d51717bde
+7	5698	7521775824779087	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	b9245ef02bbe52e9
+5699	7790	7521775845813173	lib/libgtest.a	1c2fce93259c309f
+7790	7827	7521775846193171	lib/libgtest_main.a	1ede36c9e80f3af1
+7827	7890	7521775846803173	lab_1.exe	85eb5a85914a7f5e
+5	348	7521940603579572	CMakeFiles/lab_1.dir/solution.cpp.obj	ad4b10c84a631340
+2	1073	7521940610745334	CMakeFiles/lab_1.dir/main.cpp.obj	a5fff3650e232fff
+1074	3218	7521940632242928	lab_1.exe	85eb5a85914a7f5e
+3	326	7521942428190973	CMakeFiles/lab_1.dir/solution.cpp.obj	ad4b10c84a631340
+326	2427	7521942449150196	lab_1.exe	85eb5a85914a7f5e

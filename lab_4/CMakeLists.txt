@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.21)
 project(lab_4)
 set(CMAKE_CXX_STANDARD 17)
 
@@ -15,28 +15,15 @@ FetchContent_MakeAvailable(
 
 
 
-set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
-set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
-set(TEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/test)
+add_executable(lab_4 main.cpp
+        vector.h
+        figure.h
+        hexagon.h
+        pentagon.h
+        point.h
+        rhomb.h
+)
 
-include_directories(${INCLUDE_DIR})
-
-file(GLOB_RECURSE SOURCES LIST_DIRECTORIES false ${SOURCE_DIR}/*.cpp)
-file(GLOB_RECURSE TEST_SOURCES LIST_DIRECTORIES false ${TEST_DIR}/*.cpp)
-
-add_library(${CMAKE_PROJECT_NAME}_lib ${SOURCES}
-        include/Figure.h
-        include/Rectangle.h
-        include/Square.h
-        include/Point.h
-        include/Trapezoid.h
-        include/Vector.h)
-add_executable(${CMAKE_PROJECT_NAME}_exe main.cpp
-        src/Point.cpp
-        src/Trapezoid.cpp
-        src/Vector.cpp)
-
-add_executable(lab_4 main.cpp)
 
 target_link_libraries(
         lab_4

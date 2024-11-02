@@ -1,0 +1,12 @@
+# ninja log v5
+4	914	7521836887423166	CMakeFiles/lab_6.dir/npc.cpp.obj	7183c4f4a060a769
+9	929	7521836887593143	CMakeFiles/lab_6.dir/wolf.cpp.obj	71434f70cf2f426
+2	934	7521836887643150	CMakeFiles/lab_6.dir/bear.cpp.obj	baf6ab905608c2a0
+7	935	7521836887643150	CMakeFiles/lab_6.dir/robber.cpp.obj	e4d7453e733e7cb1
+0	1069	7521836888983143	CMakeFiles/lab_6.dir/main.cpp.obj	5aa7fe919aff354b
+1069	1209	7521836890369068	lab_6.exe	f3e7fc76efe38ea9
+2	624	7521837580086615	CMakeFiles/lab_6.dir/npc.cpp.obj	7183c4f4a060a769
+624	770	7521837581506608	lab_6.exe	f3e7fc76efe38ea9
+4	642	7521838451742211	CMakeFiles/lab_6.dir/robber.cpp.obj	e4d7453e733e7cb1
+2	822	7521838453532228	CMakeFiles/lab_6.dir/main.cpp.obj	5aa7fe919aff354b
+822	951	7521838454812210	lab_6.exe	f3e7fc76efe38ea9

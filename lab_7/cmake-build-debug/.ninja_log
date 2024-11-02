@@ -1,0 +1,15 @@
+# ninja log v5
+9	884	7521930930726267	CMakeFiles/lab_7.dir/robber.cpp.obj	6bb78024d6e83ddd
+4	955	7521930931446274	CMakeFiles/lab_7.dir/bear.cpp.obj	8047fda1864a3a93
+6	1060	7521930932486299	CMakeFiles/lab_7.dir/npc.cpp.obj	89a01e21721d5e4a
+1	1405	7521930935926251	CMakeFiles/lab_7.dir/main.cpp.obj	be144c7d2f07354f
+5	804	7521937152229171	CMakeFiles/lab_7.dir/bear.cpp.obj	8047fda1864a3a93
+10	825	7521937152449167	CMakeFiles/lab_7.dir/wolf.cpp.obj	a40590206ca5f353
+8	876	7521937152949176	CMakeFiles/lab_7.dir/robber.cpp.obj	6bb78024d6e83ddd
+2	1603	7521937160184305	CMakeFiles/lab_7.dir/main.cpp.obj	be144c7d2f07354f
+1603	1852	7521937162674302	lab_7.exe	a57af2558f3d85bd
+2	1182	7521937843573440	CMakeFiles/lab_7.dir/main.cpp.obj	be144c7d2f07354f
+1183	1348	7521937845223415	lab_7.exe	a57af2558f3d85bd
+2	631	7521938048162728	CMakeFiles/lab_7.dir/bear.cpp.obj	8047fda1864a3a93
+5	640	7521938048242724	CMakeFiles/lab_7.dir/robber.cpp.obj	6bb78024d6e83ddd
+640	820	7521938050032700	lab_7.exe	a57af2558f3d85bd

@@ -1,7 +1,12 @@
-# ninja log v6
-1	237	1730472537410341714	CMakeFiles/lab_3.dir/main.cpp.o	6f57deb2a66880e3
-1	360	1730472537410222004	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o	5b19eb87038da3d4
-1	998	1730472537409964040	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	17ed68ee55647361
-998	1024	1730472538407421380	lib/libgtest.a	72c5846e50d5e806
-1024	1036	1730472538432665541	lib/libgtest_main.a	d369228b4877e58d
-1036	1063	1730472538444594858	lab_3	4810a570f607b706
+# ninja log v5
+11	704	7522009895653921	CMakeFiles/lab_3.dir/src/point.cpp.obj	ff7440f32eab91c5
+8	705	7522009895593927	CMakeFiles/lab_3.dir/src/pentagon.cpp.obj	7573582a6eedeeb2
+3	706	7522009895663926	CMakeFiles/lab_3.dir/src/vector.cpp.obj	6896db6747891286
+13	706	7522009895653921	CMakeFiles/lab_3.dir/src/rhomb.cpp.obj	f81628c8dcf1208b
+6	759	7522009896203925	CMakeFiles/lab_3.dir/src/hexagon.cpp.obj	f6cea9123b6c262d
+19	1376	7522009902475272	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	326d7a2f372c1ead
+1	1748	7522009906237008	CMakeFiles/lab_3.dir/main.cpp.obj	7cc1ba7733eca1ab
+16	5240	7522009941041871	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	5b206d57064b2ab6
+5242	7318	7522009961948788	lib/libgtest.a	1c2fce93259c309f
+7318	7354	7522009962318807	lib/libgtest_main.a	1ede36c9e80f3af1
+7354	9524	7522009983958659	lab_3.exe	2e2ee8cb99d1950d

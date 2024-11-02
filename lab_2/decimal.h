@@ -3,7 +3,7 @@
 #include <initializer_list>
 #include <string>
 #include <ostream>
-//#include <>
+
 class decimal
 {
 public:
@@ -29,6 +29,8 @@ public:
     bool operator>(decimal const& other) const;
     bool operator==(decimal const& other) const;
     bool operator!=(decimal const& other) const;
+    bool operator>=(decimal const& other) const;
+    bool operator<=(decimal const& other) const;
 
     friend std::ostream& operator<<(std::ostream, decimal const&);
 

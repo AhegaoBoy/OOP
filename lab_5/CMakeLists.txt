@@ -1,6 +1,22 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.21)
 project(lab_5)
 
-set(CMAKE_CXX_STANDARD 17)
+include(FetchContent)
 
-add_executable(lab_5 main.cpp)
+FetchContent_Declare(
+        googletest
+        URL https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip)
+
+FetchContent_MakeAvailable(
+        googletest)
+
+add_executable(lab_5
+        main.cpp
+        allocator.h
+        queue.h
+        allocator.h
+        queue.h)
+
+target_link_libraries(lab_5
+        PRIVATE
+        gtest_main)

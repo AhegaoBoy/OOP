@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-src"
-  "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-build"
-  "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix"
-  "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-src"
+  "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-build"
+  "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix"
+  "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/serzhan/Coding/C_plus_plus/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "A:/mai_stuff/OOP/lab_1/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <stack>
 
-bool solution(std::string const& str)
+bool isValidParentheses(std::string const& str)
 {
     std::stack<char> open_brackets;
     for(auto iter : str)
@@ -10,7 +10,10 @@ bool solution(std::string const& str)
         if(iter == '(')
             open_brackets.push(iter);
         else
-            open_brackets.pop();
+            if(open_brackets.empty())
+                return false;
+            else
+                open_brackets.pop();
     }
     return open_brackets.empty();
 }
